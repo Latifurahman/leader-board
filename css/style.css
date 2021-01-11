@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0 auto;
+}
+
+.section-title{
+    margin-bottom: 30px;
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.player img{
+    height: 200px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+}
+.player{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
